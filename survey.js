@@ -22,10 +22,10 @@ rl.question(`What's your name? `, (name) => {
               
               console.log(`${name} loves ${activity} while listening to ${listen}, eating ${meal} with they're favorite food which is/are ${food}, likes ${sport} over any sport, ${character} is what they're good at!`);
               rl.close();
-            })
-          })
-        })
-      })
+            });
+          });
+        });
+      });
     });
   });
 });
